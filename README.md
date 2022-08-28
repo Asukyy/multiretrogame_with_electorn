@@ -1,4 +1,4 @@
-# multiretrogame_with_electorn
+# electron_app
 
 install electron: <br />
   npm install --save-dev electron

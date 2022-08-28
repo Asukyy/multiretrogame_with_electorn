@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+  <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+  <title>Hello from Electron renderer!</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="menu-container">
+      <button class="menuv" id="snake">
+        <h2 class="snake">Snake</h2>
+      </button>
+
+      <button class="menuv" id="spacein">
+        <h2 class="snake">Space invaders</h2>
+      </button>
+
+      <button class="menuv" id="pong">
+        <h2 class="snake">Pong</h2>
+      </button>
+
+      <button class="menuv" id="doodle">
+        <h2 class="snake">Doodle Jump</h2>
+      </button>
+    </div>
+
+    <canvas id="game-container" class="gcontain" width="950" height="680">
+    </canvas>
+  </div>
+  </div>
+  <script src="js/pong.js"></script>
+  <script src="js/snake.js"></script>
+  <script src="js/doodle.js"></script>
+  <script src="js/spacein.js"></script>
+</body>
+
+</html>
